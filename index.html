@@ -54,29 +54,29 @@
 
     <div id="urlbox">
     
-      <form class="p-4" autocomplete="off">   
+      <div class="p-4">   
           <label for="url" class="mb-2 text-sm font-medium text-gray-900 sr-only">Enter Drive Url Here!</label>
           <div class="relative">
-              <input type="text" id="url" name="url" class="block w-full p-4 pr-16 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-4 focus:ring-green-300 focus:border-blue-500" placeholder="Enter Drive Url Here!" onfocus="this.select()" required>
+              <input type="text" id="url" name="url" class="block w-full p-4 pr-16 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-4 focus:ring-green-300 focus:border-blue-500" placeholder="Enter Drive Url Here!" onfocus="this.select()" autocomplete="off" required>
               <button type="button" onclick="convert()" class="text-gray-800 absolute right-2.5 bottom-2.5 bg-gray-400 hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-4 py-2">
                 <i class="fas fa-arrow-right"></i>
               </button>
           </div>
-      </form>
+      </div>
       
     </div>
     
     <div id="copybox">
 
-      <form class="p-4">   
+      <div class="p-4">   
           <label for="Result" class="mb-2 text-sm font-medium text-gray-900 sr-only">Enter Url</label>
           <div class="relative">
-              <input type="text" id="result" name="result" class="block w-full p-4 pr-16 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="" onfocus="this.select()" required>
+              <input type="text" id="result" name="result" class="block w-full p-4 pr-16 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="" onfocus="this.select()" autocomplete="off" required>
               <button type="button" id="copybtn" class="text-gray-800 absolute right-2.5 bottom-2.5 bg-gray-400 hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">
                 <i class="fas fa-copy"></i>
               </button>
           </div>
-      </form>
+      </div>
     
     </div>
     
